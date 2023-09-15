@@ -1,0 +1,67 @@
+#education-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: var(--white);
+}
+
+.education, 
+.experience {
+  padding: 3rem;
+}
+
+#education-section h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+.cv-item {
+  border-left: 0.15rem solid var(--bg-color);
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.cv-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -0.95rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  border: 0.15rem solid var(--bg-color);
+  background-color: var(--white);
+}
+
+.job-title {
+  margin-bottom: 0.7rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.duration {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: var(--main-color);
+  color: var(--bg-color);
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+}
+
+.company {
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.cv-item ul {
+  font-size: 1.3rem;
+  margin-left: 2.5rem;
+}
+
+.cv-item ul li {
+  margin-bottom: 0.3rem;
+}
