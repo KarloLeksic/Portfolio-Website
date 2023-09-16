@@ -19,3 +19,8 @@ body {
   max-width: 2000px;
   margin: auto;
 }
+
+/* maknuti na kraju, samo za zabiljeske da imam odma na stranici kaj treba */
+.note {
+  color: #df006f;
+}
