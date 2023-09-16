@@ -1,0 +1,9 @@
+#my-work {
+  padding: 5%;
+}
+
+#my-work h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--white);
+}
