@@ -14,11 +14,11 @@ header {
 header ul li {
   display: inline-block;
   list-style: none;
-  margin: 1.5rem 1.5rem;
+  margin: 1.1rem 1.2rem;
 }
 
 header ul li a {
-  font-size: 1.5rem;
+  font-size: 1.15rem;
   font-weight: 500;
   text-decoration: none;
   position: relative;
@@ -37,7 +37,8 @@ header ul li a::after {
   transition: width .4s ease, left .4s ease;
 }
 
-header ul li a:hover::after {
+header ul li a:hover::after,
+.active::after {
   width: 100%;
   left: 0;
 }
