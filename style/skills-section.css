@@ -66,3 +66,49 @@
   color: var(--main-color);
   font-weight: 700;
 }
+
+
+/* responsive */
+@media only screen and (max-width: 750px) {
+  #skills-section {
+    padding-left: 2rem;
+  }
+
+  .skliis-info-container {
+    padding: 5rem 0rem;
+  }
+
+  #skills-section h3 {
+    font-size: 1.5rem;
+  }
+
+  #skills-section h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  #skills-section p {
+    margin-bottom: 2rem;
+    line-height: 1.5;
+  }
+
+  #skills-section a {
+    padding: .6rem 1.5rem;
+    font-size: .9rem;
+  }
+
+  .skills ol {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #skills-section {
+    grid-template-columns: 1fr;
+    padding-left: 0;
+  }
+
+  .skliis-info-container {
+    padding: 4rem 1rem;
+  }
+}
