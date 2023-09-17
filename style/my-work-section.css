@@ -1,5 +1,6 @@
 #my-work {
   padding: 5%;
+  background-color: var(--bg-color);
 }
 
 .work-list {

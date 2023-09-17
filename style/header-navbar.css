@@ -32,7 +32,7 @@ header ul li a::after {
   background-color: var(--main-color);
   position: absolute;
   left: 50%;
-  bottom: -7px;
+  bottom: -.5rem;
 
   transition: width .4s ease, left .4s ease;
 }
@@ -42,3 +42,69 @@ header ul li a:hover::after,
   width: 100%;
   left: 0;
 }
+
+header .bx {
+  display: none;
+}
+
+
+/* ----------- responsive ----------------- */
+@media only screen and (max-width: 1010px) {
+  header ul li a {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  header ul li a {
+    font-size: .75rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  header {
+    justify-content: end;
+    margin-right: 1rem;
+    margin-top: .5rem;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  header .bx {
+    display: block;
+    font-size: 2.2rem;
+    color: var(--white);
+  }
+
+  header ul {
+    background: var(--main-color);
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    margin: 0;
+    padding-top: 3rem;
+
+    transition: right .5s ease;
+  }
+
+  header ul li {
+    display: block;
+    margin: 1.2rem;
+  }
+
+  header ul li a {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  header ul .bx {
+    position: absolute;
+    top: 1rem;
+    left: .7rem;
+    cursor: pointer;
+  }
+}
+
+/* ljiedeci je na 390 ako treba*/

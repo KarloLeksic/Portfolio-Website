@@ -71,3 +71,87 @@
 .download-btn:hover {
   box-shadow: 0 0 1.5rem var(--main-color);
 }
+
+
+/* ------------- CSS for small screens ----------------*/
+@media only screen and (max-width: 1010px) {
+  #hero-section .personal-information-container h1 {
+    font-size: 3rem;
+  }
+
+  #hero-section .personal-information-container h3 {
+    font-size: 1.5rem;
+  }
+
+  #hero-section .social-media a {
+    margin: 1rem 1rem 2rem 0;
+    font-size: 1.2rem;
+  }
+
+  .download-btn {
+    font-size: .8rem;
+  }
+
+  #hero-section .hero-image img {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #hero-section .personal-information-container {
+    margin-left: 0;
+  }
+
+  #hero-section .personal-information-container h1 {
+    font-size: 2rem;
+  }
+
+  #hero-section .personal-information-container h3 {
+    font-size: 1rem;
+  }
+
+  .download-btn {
+    font-size: .8rem;
+    padding: .8rem 1.5rem;
+  }
+
+  #hero-section .hero-image img {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #hero-section {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .personal-information-container {
+    padding-top: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  #hero-section .personal-information-container {
+    margin-left: 0;
+  }
+
+  #hero-section .personal-information-container h1 {
+    font-size: 4rem;
+  }
+
+  #hero-section .personal-information-container h3 {
+    font-size: 2rem;
+  }
+
+  .download-btn {
+    font-size: .8rem;
+    padding: .8rem 1.5rem;
+  }
+
+  #hero-section .hero-image img {
+    width: 350px;
+    margin-top: 5rem;
+    padding-bottom: 3rem;
+  }
+}

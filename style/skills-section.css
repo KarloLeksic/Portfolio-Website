@@ -33,16 +33,36 @@
 #skills-section a {
   padding: 0.8rem 1.8rem;
   border: none;
-  border-radius:  .3rem;
+  border-radius: .3rem;
   color: var(--second-bg-color);
   background-color: var(--main-color);
   font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
- 
+
   transition: box-shadow .15s ease;
- }
- 
- #skills-section a:hover {
-   box-shadow: 0 0 1.5rem var(--main-color);
- }
+}
+
+#skills-section a:hover {
+  box-shadow: 0 0 1.5rem var(--main-color);
+}
+
+.skills-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills ol {
+  font-size: 1.2rem;
+}
+
+.skills ol li {
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+}
+
+.skills ol li::marker {
+  color: var(--main-color);
+  font-weight: 700;
+}
