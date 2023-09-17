@@ -127,9 +127,9 @@
   }
 
   .personal-information-container {
-    padding-top: 3rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-top: 0rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
   }
 
   #hero-section .personal-information-container {
@@ -153,5 +153,32 @@
     width: 350px;
     margin-top: 5rem;
     padding-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .personal-information-container {
+    padding-top: 0;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  
+  #hero-section .personal-information-container h1 {
+    font-size: 2.5rem;
+  }
+
+  #hero-section .personal-information-container h3 {
+    font-size: 1.4rem;
+  }
+
+  #hero-section .social-media a {
+    margin: 1rem .5rem 2rem 0;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+  }
+
+  #hero-section .hero-image img {
+    width: 300px;
+    margin-top: 2.5rem;
   }
 }
