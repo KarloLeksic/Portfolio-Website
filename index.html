@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="style/about-section.css">
   <link rel="stylesheet" href="style/education-section.css">
   <link rel="stylesheet" href="style/my-work-section.css">
+  <link rel="stylesheet" href="style/skills-section.css">
 
   <!-- Include font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,29 +38,32 @@
   </header>
 
   <section id="hero-section">
-    <div class="personal-information">
-      <h3>Hi, I'm</h3>
-      <h1>Karlo Lekšić,</h1>
-      <h3>Bachelor of Computer Engineering</h3>
+    <div class="personal-information-container">
+      <div class="personal-information">
+        <h3>Hi, I'm</h3>
+        <h1>Karlo Lekšić,</h1>
+        <h3>Bachelor of Computer Engineering</h3>
 
-      <div class="social-media">
-        <a href="https://hr-hr.facebook.com/karlo.leksic/" target="_blank">
-          <i class="bx bxl-facebook"></i>
-        </a>
-        <a href="https://www.instagram.com/karlito0501/" target="_blank">
-          <i class='bx bxl-instagram'></i>
-        </a>
-        <a href="https://github.com/KarloLeksic" target="_blank">
-          <i class='bx bxl-github'></i>
-        </a>
-        <a href="https://hr.linkedin.com/in/karlo-lek%C5%A1i%C4%87-86256525a?trk=people-guest_people_search-card"
-          target="_blank">
-          <i class='bx bxl-linkedin'></i>
-        </a>
+        <div class="social-media">
+          <a href="https://hr-hr.facebook.com/karlo.leksic/" target="_blank">
+            <i class="bx bxl-facebook"></i>
+          </a>
+          <a href="https://www.instagram.com/karlito0501/" target="_blank">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="https://github.com/KarloLeksic" target="_blank">
+            <i class='bx bxl-github'></i>
+          </a>
+          <a href="https://hr.linkedin.com/in/karlo-lek%C5%A1i%C4%87-86256525a?trk=people-guest_people_search-card"
+            target="_blank">
+            <i class='bx bxl-linkedin'></i>
+          </a>
+        </div>
+
+        <a class="download-btn" href="/Karlo Lekšić - CV.pdf" download="Karlo Leksic - CV">Download CV</a>
       </div>
-
-      <a class="download-btn" href="/Karlo Lekšić - CV.pdf" download="Karlo Leksic - CV">Download CV</a>
     </div>
+
 
     <div class="hero-image">
       <img src="images/hero-image.png">
@@ -67,8 +71,38 @@
   </section>
 
   <section id="about-section">
-    <h1 class="note">About me</h1>
-    <h1 class="note">I don't have any idea how to design this section</h1>
+    <div class="image-container">
+      <img src="images/hero-image.png">
+    </div>
+
+    <div class="about-me-container">
+      <div class="about-me">
+        <h3>My <span>Intro</span></h3>
+        <h1 class="">About me</h1>
+        <p class="">
+          I am 22 years old, I like programming, electronics, 3d printing and drawing. I am currently learning website
+          programming in my spare time and would like to become a front-end developer one day. I'm also interested in
+          the back-end, but right now I'm focused exclusively on the front-end. I am also attracted to the IoT area and
+          the smart home. I love tools and I don't mind getting my hands dirty to make something.
+        </p>
+        <button>Contact me</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills-section">
+    <div class="skliis-info-container">
+      <div class="skills-info">
+        <h3>Favorite <span>Skills</span></h3>
+        <h1>My Skills</h1>
+        <p>See fully what skills I have and perform to <br> develop projects for you</p>
+        <a>See Projects</a>
+      </div>
+    </div>
+
+    <div class="skills">
+      lista sa skilovima
+    </div>
   </section>
 
   <h1 class="note">Ovo je nekako tanko ispod</h1>
@@ -143,7 +177,8 @@
 
         <div class="layer">
           <h3>LED Corner Lamp</h3>
-          <p>Homemade corner lamp made of wooden pieces and a 3D printed part that connects them. A much cheaper and more versatile variant.</p>
+          <p>Homemade corner lamp made of wooden pieces and a 3D printed part that connects them. A much cheaper and
+            more versatile variant.</p>
           <a href="#"><i class='bx bx-link-external'></i></a>
         </div>
       </div>
@@ -152,7 +187,7 @@
         <img class="static" src="images/projects/led-pool-1.jpg">
         <img class="active" src="images/projects/gif/led-pool.gif">
       </div>
-      
+
       <div class="card shaddow-on-hover">
         <img src="images/projects/gif/led-room.gif">
       </div>
@@ -169,8 +204,9 @@
         <img src="images/projects/IoT-sensor-printed-box.jpg">
       </div>
     </div>
-    
   </section>
+
+
 </body>
 
 </html>

@@ -1,3 +1,59 @@
 #about-section {
-  height: 100vh;
+  display: grid;
+  grid-template-columns: 5fr 6fr;
+  margin: 10rem 0;
+}
+
+#about-section img {
+  width: 400px;
+}
+
+.about-me-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3rem;
+}
+
+#about-section .image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#about-section h3 {
+  color: var(--white);
+  margin-bottom: .3rem;
+}
+
+#about-section h1 {
+  color: var(--white);
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+#about-section h3 span{
+  color: var(--main-color);
+}
+
+#about-section p {
+  color: var(--white);
+  margin-bottom: 3rem;
+}
+
+#about-section button {
+ padding: 0.8rem 1.8rem;
+ border: none;
+ border-radius:  .3rem;
+ color: var(--second-bg-color);
+ background-color: var(--main-color);
+ font-size: 1rem;
+ font-weight: 700;
+ cursor: pointer;
+
+ transition: box-shadow .15s ease;
+}
+
+#about-section button:hover {
+  box-shadow: 0 0 1.5rem var(--main-color);
 }
