@@ -128,7 +128,7 @@
 
   .personal-information-container {
     padding-top: 0rem;
-    padding-left: 3rem;
+    padding-left: 2rem;
     padding-right: 2rem;
   }
 
@@ -137,11 +137,11 @@
   }
 
   #hero-section .personal-information-container h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   #hero-section .personal-information-container h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .download-btn {
@@ -151,7 +151,7 @@
 
   #hero-section .hero-image img {
     width: 350px;
-    margin-top: 5rem;
+    margin-top: 4rem;
     padding-bottom: 3rem;
   }
 }
