@@ -57,3 +57,22 @@
 #about-section button:hover {
   box-shadow: 0 0 1.5rem var(--main-color);
 }
+
+
+/* ------ responsive --------------*/
+@media only screen and (max-width: 1010px) {
+  #about-section .image-container img {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #about-section {
+    grid-template-columns: 1fr;
+    margin: 4rem 0;
+  }
+
+  #about-section .image-container {
+    display: none;
+  }
+}
