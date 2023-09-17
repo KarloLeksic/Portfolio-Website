@@ -146,17 +146,21 @@
 
   .download-btn {
     font-size: .8rem;
-    padding: .8rem 1.5rem;
+    padding: .7rem 1.4rem;
   }
 
   #hero-section .hero-image img {
     width: 350px;
     margin-top: 4rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
   }
 }
 
 @media only screen and (max-width: 390px) {
+  #hero-section {
+    padding-top: 1.5rem;
+  }
+
   .personal-information-container {
     padding-top: 0;
     padding-left: 2.5rem;
@@ -172,13 +176,13 @@
   }
 
   #hero-section .social-media a {
-    margin: 1rem .5rem 2rem 0;
+    margin: .8rem .5rem 1.6rem 0;
     font-size: 1.1rem;
     padding: 0.5rem;
   }
 
   #hero-section .hero-image img {
-    width: 300px;
-    margin-top: 2.5rem;
+    width: 280px;
+    margin-top: 2rem;
   }
 }
