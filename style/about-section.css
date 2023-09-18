@@ -1,7 +1,7 @@
 #about-section {
   display: grid;
   grid-template-columns: 5fr 6fr;
-  margin: 10rem 0;
+  padding: 10rem 0;
 }
 
 #about-section img {
