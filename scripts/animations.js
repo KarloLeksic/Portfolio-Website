@@ -1,8 +1,11 @@
 // Animacija za prvu polovicu hero sekcije
-document.querySelector('#hero-section .personal-information-container').classList.add('animate-hero');
+function animateHeroSection() {
+  document.querySelector('#hero-section .personal-information-container').classList.add('animate-hero');
 
-// Animacija za pocetnu sliku
-document.querySelector('#hero-section .hero-image').classList.add('animate-hero');
+  // Animacija za pocetnu sliku
+  document.querySelector('#hero-section .hero-image').classList.add('animate-hero');
+}
+
 
 // Animacija na about-me sekciji tek kada se do nje dode
 function animateAboutSection(screenPosition) {
@@ -34,8 +37,9 @@ function animateSkillsSection(screenPosition) {
   }
 }
 
-// Za animiranje navbara kak se skrola
+// Za otvaranje navbara na malom ekranu
 const sidemenu = document.querySelector('#side-menu');
+
 
 // Otvaranje responzivnog menija kada je na malom ekranu
 document.querySelector('.bx-menu-alt-right').addEventListener('click', () => {
@@ -55,3 +59,5 @@ window.onscroll = () => {
   animateAboutSection(screenPosition);
   animateSkillsSection(screenPosition);
 };
+
+window.onload = animateHeroSection();
