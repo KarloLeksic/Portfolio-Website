@@ -65,7 +65,8 @@
   margin-bottom: 0.3rem;
 }
 
-/*----------------responsive-------------*/
+
+/* ----------- Code for responsive design ----------- */
 @media only screen and (max-width: 750px) {
   #education-section {
     grid-template-columns: 1fr;
@@ -90,11 +91,11 @@
     margin-bottom: 0.7rem;
     font-size: 1rem;
   }
-  
+
   .duration {
     font-size: .8rem;
   }
-  
+
   .company {
     margin-bottom: 1rem;
     font-size: .9rem;

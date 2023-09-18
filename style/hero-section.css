@@ -86,7 +86,7 @@
 }
 
 
-/* ------------- CSS for small screens ----------------*/
+/* ----------- Code for responsive design ----------- */
 @media only screen and (max-width: 1010px) {
   #hero-section .personal-information-container h1 {
     font-size: 3rem;
@@ -175,9 +175,7 @@
   }
 
   .personal-information-container {
-    padding-top: 0;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+    padding: 0 2.5rem;
   }
 
   #hero-section .personal-information-container h1 {

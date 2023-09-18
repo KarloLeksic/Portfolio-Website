@@ -49,12 +49,11 @@
   font-weight: 700;
 }
 
-/* responsive */
+
+/* ----------- Code for responsive design ----------- */
 @media only screen and (max-width: 750px) {
   #skills-section {
-    padding-left: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 2rem 0 2rem 2rem;
   }
 
   .skliis-info-container {
