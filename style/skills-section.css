@@ -109,6 +109,10 @@
   }
 
   .skliis-info-container {
-    padding: 4rem 1rem;
+    padding: 4rem 1rem 2.5rem 1rem;
+  }
+
+  .skills {
+    padding-bottom: 2rem;
   }
 }
