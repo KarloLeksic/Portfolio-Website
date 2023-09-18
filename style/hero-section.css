@@ -17,11 +17,6 @@
   transition: transform 1s ease, opacity 1s ease;
 }
 
-#hero-section .animate-information-container {
-  transform: translateY(0);
-  opacity: 1;
-}
-
 #hero-section .personal-information-container h1 {
   font-size: 5rem;
   color: var(--main-color);
@@ -42,7 +37,7 @@
   transition: transform 1s ease, opacity 1s ease;
 }
 
-#hero-section .animate-hero-image {
+#hero-section .animate-hero {
   transform: translateY(0);
   opacity: 1;
 }
