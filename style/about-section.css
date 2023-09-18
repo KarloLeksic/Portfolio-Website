@@ -53,9 +53,7 @@
   #about-section .image-container {
     display: none;
   }
-}
 
-@media only screen and (max-width: 750px) {
   .about-me-container {
     margin: 0 2.2rem;
   }

@@ -96,3 +96,14 @@
 .card .static:hover {
   opacity: 0;
 }
+
+/*--------responsive------------*/
+@media only screen and (max-width: 650px) {
+  .work-list {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .card {
+    width: 150px;
+  }
+}
