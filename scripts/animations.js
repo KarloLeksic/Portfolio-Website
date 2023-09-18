@@ -5,14 +5,11 @@ document.querySelector('#hero-section .personal-information-container').classLis
 document.querySelector('#hero-section .hero-image').classList.add('animate-hero');
 
 // Animacija na about-me sekciji tek kada se do nje dode
-function animateAboutSection() {
+function animateAboutSection(screenPosition) {
   const aboutMeSection = document.querySelector('#about-section');
 
   // Dohvacanje pozicije od vrha ekrana
   const aboutMePosition = aboutMeSection.getBoundingClientRect().top;
-
-  // Moramo znati koliko je velik ekran kojeg trenutno gledamo
-  const screenPosition = window.innerHeight;
 
   // Dohvacanje lijevog i desnog elementa za tu animaciju
   const aboutMeRight = document.querySelector('#about-section .image-container');
@@ -24,6 +21,20 @@ function animateAboutSection() {
     aboutMeLeft.classList.add('animate-about-me');
   }
 }
+
+function animateSkillsSection(screenPosition) {
+  const skillsSection = document.querySelector('#skills-section');
+  const skillsSectionPosition = skillsSection.getBoundingClientRect().top;
+  const skliisRight = document.querySelector('.skliis-info-container .skills-info');
+  const skliisLeft = document.querySelector('.skills-container .skills');
+
+  if(skillsSectionPosition < screenPosition / 1.5) {
+    skliisRight.classList.add('animate-skills');
+    skliisLeft.classList.add('animate-skills');
+  }
+}
+
+animateSkillsSection();
 
 // Za animiranje navbara kak se skrola
 const sidemenu = document.querySelector('#side-menu');
@@ -58,5 +69,9 @@ window.onscroll = () => {
     }
   });
 
-  animateAboutSection();
+  // Pozicija trenutna screena za trigeranje animacija
+  const screenPosition = window.innerHeight;
+
+  animateAboutSection(screenPosition);
+  animateSkillsSection(screenPosition);
 };

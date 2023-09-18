@@ -12,6 +12,19 @@
   align-items: center;
 }
 
+.skliis-info-container .skills-info {
+  transform: translateX(-100px);
+  opacity: 0;
+
+  transition: transform 1s ease, opacity 1s ease;
+}
+
+#skills-section .skliis-info-container .animate-skills, 
+#skills-section .skills-container .animate-skills {
+  transform: translateX(0);
+  opacity: 1;
+}
+
 #skills-section h3 {
   margin-bottom: .5rem;
 }
@@ -32,6 +45,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.skills-container .skills {
+  transform: translateX(100px);
+  opacity: 0;
+
+  transition: transform 1s ease, opacity 1s ease;
 }
 
 .skills ol {
