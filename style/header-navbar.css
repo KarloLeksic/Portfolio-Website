@@ -37,8 +37,7 @@ header ul li a::after {
   transition: width .4s ease, left .4s ease;
 }
 
-header ul li a:hover::after,
-.active::after {
+header ul li a:hover::after {
   width: 100%;
   left: 0;
 }

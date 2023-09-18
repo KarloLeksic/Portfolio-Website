@@ -19,8 +19,7 @@
   transition: transform 1s ease, opacity 1s ease;
 }
 
-#skills-section .skliis-info-container .animate-skills, 
-#skills-section .skills-container .animate-skills {
+.skliis-info-container .animate-skills {
   transform: translateX(0);
   opacity: 1;
 }
@@ -52,6 +51,11 @@
   opacity: 0;
 
   transition: transform 1s ease, opacity 1s ease;
+}
+
+.skills-container .animate-skills {
+  transform: translateX(0);
+  opacity: 1;
 }
 
 .skills ol {

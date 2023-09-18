@@ -136,7 +136,7 @@
 @media only screen and (max-width: 650px) {
   #hero-section {
     grid-template-columns: 1fr;
-    height: auto;
+    /*height: auto;*/
   }
 
   .personal-information-container {
