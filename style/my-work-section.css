@@ -11,17 +11,12 @@
   margin-top: 2rem;
 }
 
-#my-work h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: var(--white);
-}
-
 .card {
   width: 200px;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
+  margin: auto;
 
   transition: box-shadow .15s ease, transform .15s ease;
 }
