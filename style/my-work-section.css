@@ -99,6 +99,10 @@
 
 /*--------responsive------------*/
 @media only screen and (max-width: 650px) {
+  #my-work {
+    padding-top: 2.5rem;
+  }
+
   .work-list {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
