@@ -1,7 +1,7 @@
 #about-section {
   display: grid;
   grid-template-columns: 5fr 6fr;
-  padding: 8rem 0;
+  height: 100vh;
 }
 
 #about-section img {
@@ -64,6 +64,7 @@
 @media only screen and (max-width: 750px) {
   #about-section {
     grid-template-columns: 1fr;
+    height: auto;
     padding: 6rem 0;
   }
 
