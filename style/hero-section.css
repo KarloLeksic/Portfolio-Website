@@ -163,7 +163,7 @@
   }
 
   #hero-section .hero-image img {
-    width: 350px;
+    width: 320px;
     margin-top: 4rem;
     padding-bottom: 2rem;
   }
@@ -193,7 +193,7 @@
   }
 
   #hero-section .hero-image img {
-    width: 280px;
-    margin-top: 2rem;
+    width: 250px;
+    margin-top: 1rem;
   }
 }
