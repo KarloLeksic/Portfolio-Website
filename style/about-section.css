@@ -1,7 +1,7 @@
 #about-section {
   display: grid;
   grid-template-columns: 5fr 6fr;
-  padding: 10rem 0;
+  padding: 8rem 0;
 }
 
 #about-section img {
@@ -51,17 +51,13 @@
 
 #about-section p {
   margin-bottom: 3rem;
-  padding-right: 5rem;
+  margin-right: 5rem;
 }
 
 /* ------ responsive --------------*/
 @media only screen and (max-width: 1010px) {
   #about-section .image-container img {
     width: 300px;
-  }
-
-  #about-section {
-    padding: 8rem 0;
   }
 }
 
@@ -77,6 +73,10 @@
 
   .about-me-container {
     margin: 0 2.2rem;
+  }
+
+  #about-section p {
+    margin-right: 1rem;
   }
 }
 
