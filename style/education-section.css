@@ -36,27 +36,27 @@
 
 /* Icons inside white dots */
 .graduation::before {
-  background-image: url(/images/icons/graduation.jpg);
+  background-image: url(../images/icons/graduation.jpg);
   background-size: contain;
 }
 
 .school::before {
-  background-image: url(/images/icons/school-bag.jpg);
+  background-image: url(../images/icons/school-bag.jpg);
   background-size: contain;
 }
 
 .ht::before {
-  background-image: url(/images/icons/ht.jpg);
+  background-image: url(../images/icons/ht.jpg);
   background-size: contain;
 }
 
 .soldered::before {
-  background-image: url(/images/icons/soldered.jpg);
+  background-image: url(../images/icons/soldered.jpg);
   background-size: contain;
 }
 
 .ofir::before {
-  background-image: url(/images/icons/ofir.jpg);
+  background-image: url(../images/icons/ofir.jpg);
   background-size: contain;
 }
 
