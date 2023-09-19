@@ -36,7 +36,7 @@
 
 /* Icons inside white dots */
 .graduation::before {
-  background-image: url(../images/icons/graduation.jpg);
+  background-image: url(../images/icons/graduation-cap.jpg);
   background-size: contain;
 }
 
@@ -46,17 +46,17 @@
 }
 
 .ht::before {
-  background-image: url(../images/icons/ht.jpg);
+  background-image: url(../images/icons/ht-logo.jpg);
   background-size: contain;
 }
 
 .soldered::before {
-  background-image: url(../images/icons/soldered.jpg);
+  background-image: url(../images/icons/soldered-logo.jpg);
   background-size: contain;
 }
 
 .ofir::before {
-  background-image: url(../images/icons/ofir.jpg);
+  background-image: url(../images/icons/ofir-logo.jpg);
   background-size: contain;
 }
 
