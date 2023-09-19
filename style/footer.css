@@ -1,0 +1,35 @@
+footer {
+  padding: 2rem;
+}
+
+footer h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--white);
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+  margin-top: .3rem;
+}
+
+footer p a {
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 550px) {
+  footer {
+    padding: 1rem;
+  }
+
+  footer h2 {
+    font-size: 1.4rem;
+  }
+
+  footer p a {
+    font-size: .8rem;
+  }
+}
