@@ -12,6 +12,7 @@
 #education-section h1 {
   text-align: center;
   margin-bottom: 2rem;
+  font-size: 3.2rem;
 }
 
 .cv-item {
@@ -25,12 +26,38 @@
   content: '';
   position: absolute;
   top: 0;
-  left: -0.95rem;
-  width: 1.5rem;
-  height: 1.5rem;
+  left: -1.12rem;
+  width: 1.8rem;
+  height: 1.8rem;
   border-radius: 50%;
   border: 0.15rem solid var(--bg-color);
   background-color: var(--white);
+}
+
+/* Icons inside white dots */
+.graduation::before {
+  background-image: url(/images/icons/graduation.png);
+  background-size: contain;
+}
+
+.school::before {
+  background-image: url(/images/icons/school-bag.png);
+  background-size: contain;
+}
+
+.ht::before {
+  background-image: url(/images/icons/ht.png);
+  background-size: contain;
+}
+
+.ofir::before {
+  background-image: url(/images/icons/ofir.png);
+  background-size: contain;
+}
+
+.soldered::before {
+  background-image: url(/images/icons/soldered-logo.png);
+  background-size: contain;
 }
 
 .job-title {
