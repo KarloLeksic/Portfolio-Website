@@ -19,6 +19,7 @@
 
 #hero-section .personal-information-container h1 {
   font-size: 5rem;
+  margin: .6rem 0;
   color: var(--main-color);
 }
 
@@ -57,7 +58,7 @@
   border-radius: 50%;
   font-size: 2rem;
   color: var(--main-color);
-  margin: 2rem 1.5rem 2.5rem 0;
+  margin: 2rem 1.5rem 3rem 0;
   transition: background .5s ease, color .5s ease, box-shadow .5s ease;
 }
 
@@ -136,7 +137,6 @@
 @media only screen and (max-width: 650px) {
   #hero-section {
     grid-template-columns: 1fr;
-    /*height: auto;*/
   }
 
   .personal-information-container {
@@ -171,11 +171,11 @@
 
 @media only screen and (max-width: 390px) {
   #hero-section {
-    padding-top: 1.5rem;
+    padding-top: 0;
   }
 
   .personal-information-container {
-    padding: 0 2.5rem;
+    padding: 0 2rem;
   }
 
   #hero-section .personal-information-container h1 {
