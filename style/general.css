@@ -26,26 +26,23 @@ body {
   margin: auto;
 }
 
-/* maknuti na kraju, samo za zabiljeske da imam odma na stranici kaj treba */
-.note {
-  color: #df006f;
-}
-
-
 .small-title {
   color: var(--white);
   font-size: 2rem;
+  text-shadow: .2rem .2rem .3rem #000;
 }
 
 .big-title {
   color: var(--white);
   font-size: 4rem;
+  text-shadow: .2rem .2rem .3rem #000;
 }
 
 .paragraph {
   color: var(--white);
   line-height: 1.4;
   font-size: 1.2rem;
+  text-shadow: .2rem .2rem .3rem #000;
 }
 
 .btn {

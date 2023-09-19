@@ -23,6 +23,7 @@ header ul li a {
   text-decoration: none;
   position: relative;
   color: var(--white);
+  text-shadow: .2rem .2rem .3rem #000;
 }
 
 header ul li a::after {

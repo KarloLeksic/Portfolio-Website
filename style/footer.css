@@ -7,6 +7,7 @@ footer h2 {
   font-weight: 500;
   color: var(--white);
   text-align: center;
+    text-shadow: .2rem .2rem .3rem #000;
 }
 
 footer p {
@@ -18,6 +19,7 @@ footer p a {
   text-decoration: none;
   color: var(--main-color);
   font-size: 1.3rem;
+    text-shadow: .2rem .2rem .3rem #000;
 }
 
 @media only screen and (max-width: 550px) {
