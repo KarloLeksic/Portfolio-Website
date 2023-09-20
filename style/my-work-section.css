@@ -18,8 +18,10 @@
   position: relative;
   overflow: hidden;
   margin: auto;
+  opacity: 0;
+  transform: translateY(6rem);
 
-  transition: box-shadow .15s ease, transform .15s ease;
+  transition: box-shadow .15s ease, transform .4s ease, opacity .4s ease;
 }
 
 .card:hover img{

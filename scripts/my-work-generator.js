@@ -43,6 +43,17 @@ function generateProjects(selectedCategory) {
 
     projectContainerElement.innerHTML += html;
   });
+
+  // Dohvacanje svih kartica i stavljanje im opacity ja 1 u raznim intervalima da dobimo efekt animacije
+  const cards = document.querySelectorAll('.card');
+
+  
+  cards.forEach((card, index) => {
+    setTimeout(() => {
+      card.style.opacity = '1';
+      card.style.transform = 'translateY(0)';
+    }, index * 100);
+  });
 }
 
 // Funkcija koja generira html za jedan projekt
