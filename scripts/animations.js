@@ -78,7 +78,7 @@ document.querySelector('.bx-menu-alt-right').addEventListener('click', () => {
 
 // Zatvaranje responzivnog menija
 document.querySelector('.bx-x').addEventListener('click', () => {
-  sidemenu.style.right = '-200px';
+  sidemenu.style.right = '-12.5rem';
 });
 
 

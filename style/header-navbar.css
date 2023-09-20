@@ -29,7 +29,7 @@ header ul li a {
 header ul li a::after {
   content: '';
   width: 0;
-  height: 3px;
+  height: 0.2rem;
   background-color: var(--main-color);
   position: absolute;
   left: 50%;
@@ -81,8 +81,8 @@ header .bx {
     box-shadow: 0 0 1rem var(--second-bg-color);
     position: fixed;
     top: 0;
-    right: -200px;
-    width: 200px;
+    right: -12.5rem;
+    width: 12.5rem;
     height: 100vh;
     margin: 0;
     padding-top: 3rem;

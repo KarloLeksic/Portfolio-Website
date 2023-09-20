@@ -11,14 +11,14 @@
 }
 
 .education {
-  transform: translateX(-100px);
+  transform: translateX(-7rem);
   opacity: 0;
 
   transition: transform 1s ease, opacity 1s ease;
 }
 
 .experience {
-  transform: translateX(100px);
+  transform: translateX(7rem);
   opacity: 0;
 
   transition: transform 1s ease, opacity 1s ease;

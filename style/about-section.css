@@ -6,7 +6,7 @@
 }
 
 #about-section img {
-  width: 400px;
+  width: 25rem;
 }
 
 .about-me-container {
@@ -20,14 +20,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: translateX(-100px);
+  transform: translateX(-7rem);
   opacity: 0;
 
   transition: transform 1s ease, opacity 1s ease;
 }
 
 #about-section .about-me-container {
-  transform: translateX(100px);
+  transform: translateX(7rem);
   opacity: 0;
 
   transition: transform 1s ease, opacity 1s ease;
@@ -58,7 +58,7 @@
 /* ----------- Code for responsive design ----------- */
 @media only screen and (max-width: 1010px) {
   #about-section .image-container img {
-    width: 300px;
+    width: 18.75rem;
   }
 }
 
