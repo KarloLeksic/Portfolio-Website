@@ -107,6 +107,18 @@
   background-color: var(--main-color);
 }
 
+.title-btns-container {
+  transform: translateX(100px);
+  opacity: 0;
+
+  transition: transform 1s ease, opacity 1s ease;
+}
+
+#my-work .animate-work-title {
+  transform: translateX(0);
+  opacity: 1;
+}
+
 
 /* ----------- Code for responsive design ----------- */
 @media only screen and (max-width: 650px) {

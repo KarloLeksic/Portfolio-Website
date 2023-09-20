@@ -17,9 +17,6 @@ buttons.forEach(btn => {
   });
 });
 
-// Po defaultu generiraj sve
-generateProjects('all');
-
 // Generiranje projekata na stranici u ovisnosti o kategorija
 function generateProjects(selectedCategory) {
   // Dohvati element u koji se ubacuju projekti

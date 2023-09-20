@@ -43,9 +43,28 @@ function animateEducationSection(screenPosition) {
   const educationContainer = document.querySelector('.education');
   const experienceContainer = document.querySelector('.experience');
 
-  if(educationSectionPosition < screenPosition / 1.5) {
+  if (educationSectionPosition < screenPosition / 1.5) {
     educationContainer.classList.add('animate-education');
     experienceContainer.classList.add('animate-education');
+  }
+}
+
+let projectGenerated = 0;
+
+function animateProjectsSection(screenPosition) {
+  const projectsSection = document.querySelector('#my-work');
+  const projectSectionPosition = projectsSection.getBoundingClientRect().top;
+  const titleAndButtonsContainer = document.querySelector('.title-btns-container');
+
+  if (projectSectionPosition < screenPosition / 1.5) {
+    titleAndButtonsContainer.classList.add('animate-work-title');
+
+    // Po defaultu generiraj sve
+    if(!projectGenerated) {
+      generateProjects('all');
+      projectGenerated = 1;
+    }
+    
   }
 }
 
@@ -71,6 +90,7 @@ window.onscroll = () => {
   animateAboutSection(screenPosition);
   animateSkillsSection(screenPosition);
   animateEducationSection(screenPosition);
+  animateProjectsSection(screenPosition);
 };
 
 window.onload = animateHeroSection();
