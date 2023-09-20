@@ -12,8 +12,7 @@ buttons.forEach(btn => {
     btn.classList.add('active');
 
     // Generiranje sadržaja ovisno o pritisnutom gumbu
-    const selectedCategory = btn.getAttribute('id');
-    generateProjects(selectedCategory);
+    generateProjects(btn.getAttribute('id'));
   });
 });
 
@@ -42,10 +41,7 @@ function generateProjects(selectedCategory) {
   });
 
   // Dohvacanje svih kartica i stavljanje im opacity ja 1 u raznim intervalima da dobimo efekt animacije
-  const cards = document.querySelectorAll('.card');
-
-  
-  cards.forEach((card, index) => {
+  document.querySelectorAll('.card').forEach((card, index) => {
     setTimeout(() => {
       card.style.opacity = '1';
       card.style.transform = 'translateY(0)';

@@ -83,11 +83,11 @@
 
 @media only screen and (max-width: 750px) {
   #skills-section {
-    padding: 2rem 0 2rem 2rem;
+    padding: 2rem 0;
   }
 
   .skliis-info-container {
-    padding: 5rem 0rem;
+    padding: 5rem 0 5rem 2rem;
   }
 
   #skills-section h1 {

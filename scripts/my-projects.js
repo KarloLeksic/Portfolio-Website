@@ -32,7 +32,7 @@ const projects = [
   {
     imagePath: 'images/projects/beer-maker-2.jpg',
     name: 'Temperature control device',
-    description: 'I like projects like this the most because I design and do everything myself. Just the way I want it and the way I want it. The device is used for the production of beer.',
+    description: 'I like projects like this the most because I design and do everything myself. Just the way I want it and the way I want it.',
     link: 'https://www.instagram.com/reel/CwIqncGsbQl/',
     category: '3d-prints, electronics'
   },
