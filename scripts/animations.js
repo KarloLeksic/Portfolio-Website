@@ -37,6 +37,18 @@ function animateSkillsSection(screenPosition) {
   }
 }
 
+function animateEducationSection(screenPosition) {
+  const educationSection = document.querySelector('#education-section');
+  const educationSectionPosition = educationSection.getBoundingClientRect().top;
+  const educationContainer = document.querySelector('.education');
+  const experienceContainer = document.querySelector('.experience');
+
+  if(educationSectionPosition < screenPosition / 1.5) {
+    educationContainer.classList.add('animate-education');
+    experienceContainer.classList.add('animate-education');
+  }
+}
+
 // Za otvaranje navbara na malom ekranu
 const sidemenu = document.querySelector('#side-menu');
 
@@ -58,6 +70,7 @@ window.onscroll = () => {
 
   animateAboutSection(screenPosition);
   animateSkillsSection(screenPosition);
+  animateEducationSection(screenPosition);
 };
 
 window.onload = animateHeroSection();
