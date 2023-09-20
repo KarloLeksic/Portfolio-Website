@@ -1,3 +1,7 @@
+window.addEventListener('load', function () {
+  animateHeroSection();
+});
+
 // Animacija za prvu polovicu hero sekcije
 function animateHeroSection() {
   document.querySelector('#hero-section .personal-information-container').classList.add('animate-hero');
@@ -91,5 +95,3 @@ window.onscroll = () => {
   animateEducationSection(screenPosition);
   animateProjectsSection(screenPosition);
 };
-
-window.onload = animateHeroSection();
