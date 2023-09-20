@@ -56,7 +56,7 @@ function animateProjectsSection(screenPosition) {
   const projectSectionPosition = projectsSection.getBoundingClientRect().top;
   const titleAndButtonsContainer = document.querySelector('.title-btns-container');
 
-  if (projectSectionPosition < screenPosition / 1.5) {
+  if (projectSectionPosition < screenPosition / 1.4) {
     titleAndButtonsContainer.classList.add('animate-work-title');
 
     // Po defaultu generiraj sve
@@ -64,7 +64,6 @@ function animateProjectsSection(screenPosition) {
       generateProjects('all');
       projectGenerated = 1;
     }
-    
   }
 }
 
