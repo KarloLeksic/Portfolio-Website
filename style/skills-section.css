@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   color: var(--white);
-  height: 100vh;
+  padding: 12rem 0;
 }
 
 .skliis-info-container {

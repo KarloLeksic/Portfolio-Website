@@ -32,21 +32,21 @@ const projects = [
   {
     imagePath: 'images/projects/beer-maker-2.jpg',
     name: 'Temperature control device',
-    description: 'I like projects like this the most because I design and do everything myself. Just the way I want it and the way I want it.',
+    description: 'I like projects like this the most because I design and do everything myself. Just the way I want it.',
     link: 'https://www.instagram.com/reel/CwIqncGsbQl/',
     category: '3d-prints, electronics'
   },
   {
     imagePath: 'images/projects/happy-leds-app.jpg',
     name: 'Happy LEDs App',
-    description: 'My first IoT project from scratch. Control of led lights via mobile phone.',
+    description: 'My first IoT project from scratch. Control of led lights via mobile phone app.',
     link: 'https://github.com/KarloLeksic/HappyLEDs-IoT-project',
     category: 'leds'
   },
   {
-    imagePath: 'images/projects/gif/robotic-arm.gif',
+    imagePath: 'images/projects/robotic-arm.jpg',
     name: 'Remote Controlled Robotic Arm',
-    description: 'My final paper in college. At that time I didn\'t know how to draw in 3D, but everything else is my work inspired by videos from youtube.',
+    description: 'My final work at college. At that time I didn\'t know 3D modeling, but everything else is my work inspired by videos from youtube.',
     link: 'https://www.instagram.com/reel/CfGzTHGODpx/',
     category: 'electronics, 3d-prints'
   },
