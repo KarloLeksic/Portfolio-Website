@@ -1,6 +1,6 @@
 #hero-section {
   display: grid;
-  grid-template-columns: 6fr 4fr;
+  grid-template-columns: 5fr 5fr;
   height: 100vh;
   background-color: var(--bg-color);
   padding-top: 3rem;
@@ -46,7 +46,7 @@
 }
 
 #hero-section .hero-image img {
-  width: 25rem;
+  width: 33rem;
 }
 
 #hero-section .social-media a {
@@ -109,7 +109,7 @@
   }
 
   #hero-section .hero-image img {
-    width: 18.75rem;
+    width: 23rem;
   }
 }
 
@@ -132,7 +132,7 @@
   }
 
   #hero-section .hero-image img {
-    width: 12.5rem;
+    width: 18rem;
   }
 }
 
@@ -165,7 +165,7 @@
   }
 
   #hero-section .hero-image img {
-    width: 20rem;
+    width: 22rem;
     margin-top: 4rem;
     padding-bottom: 2rem;
   }
@@ -195,7 +195,6 @@
   }
 
   #hero-section .hero-image img {
-    width: 15.6rem;
-    margin-top: 1rem;
+    width: 18rem;
   }
 }
