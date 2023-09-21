@@ -12,7 +12,7 @@ const projects = [
     imagePath: 'images/projects/led-pool-1.jpg',
     name: 'LED Pool Table',
     description: 'I tried to make something unique, something that I have never seen anywhere. It looks very cool.',
-    link: '',
+    link: 'https://www.instagram.com/karlito0501/',
     category: 'leds'
   },
   {
