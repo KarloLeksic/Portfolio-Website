@@ -14,6 +14,7 @@
 }
 
 .skliis-info-container .skills-info {
+  padding: 3rem 0;
   transform: translateX(-7rem);
   opacity: 0;
 
