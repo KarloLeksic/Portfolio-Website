@@ -48,7 +48,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0 1rem;
+  padding: 0 .7rem;
   text-align: center;
   font-size: 0.875rem;
   transition: height 0.5s;
@@ -63,6 +63,7 @@
 .layer p {
   color: var(--white);
   font-size: .85rem;
+  text-align: left;
 }
 
 .layer a {
