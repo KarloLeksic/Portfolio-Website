@@ -45,7 +45,7 @@ function generateProjects(selectedCategory) {
     setTimeout(() => {
       card.style.opacity = '1';
       card.style.transform = 'translateY(0)';
-    }, index * 100);
+    }, index * 70);
   });
 }
 

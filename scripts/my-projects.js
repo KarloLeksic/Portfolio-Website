@@ -56,5 +56,19 @@ const projects = [
     description: 'Unfortunately, I don\'t have my own house or apartment, so this is improvised, but the 3D printed cases for the sensors look very cool.',
     link: 'https://www.instagram.com/reel/CsMLpKAsanr/',
     category: '3d-prints, electronics'
+  },
+  {
+    imagePath: 'images/projects/portfolio-website.jpg',
+    name: 'Portfolio Website',
+    description: 'My first site that I made since I started learning front-end web programming in detail.',
+    link: 'https://github.com/KarloLeksic/Portfolio-Website',
+    category: 'web'
+  },
+  {
+    imagePath: 'images/projects/perfumes-shop.jpg',
+    name: 'Innesa Perfumes Webshop',
+    description: 'The design is inspired by a free template, and I coded the page myself to make it look as similar as possible to the original.',
+    link: 'https://github.com/KarloLeksic/Innesa-Perfumes-webshop',
+    category: 'web'
   }
 ];
