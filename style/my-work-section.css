@@ -154,6 +154,13 @@
   }
 }
 
+@media only screen and (max-width: 850px) {
+  #my-work button {
+    font-size: .9rem;
+    margin: 1rem 1rem 0 0;
+  }
+}
+
 @media only screen and (max-width: 750px) {
   .work-list {
     grid-template-columns: 12.5rem 12.5rem;
@@ -161,6 +168,14 @@
     grid-row-gap: 2rem;
   }
 }
+
+@media only screen and (max-width: 720px) {
+  #my-work button {
+    font-size: .8rem;
+    padding: .6rem .9rem;
+  }
+}
+
 
 @media only screen and (max-width: 650px) {
   #my-work {
@@ -188,27 +203,16 @@
     height: 2.2rem;
     width: 2.2rem;
   }
-
-  #my-work button {
-    margin: 1rem 1rem 1.5rem 0;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  #my-work button {
-    font-size: .9rem;
-  }
 }
 
 @media only screen and (max-width: 610px) {
   #my-work {
-    padding: 3rem 2rem 4rem 2rem;
+    padding: 3rem 1.5rem 4rem 1.5rem;
   }
 
   #my-work button {
     font-size: .7rem;
-    padding: .5rem .8rem;
-    margin: 1rem .5rem 1.5rem 0;
+    padding: .5rem .7rem;
   }
 
   .work-list {
@@ -216,14 +220,14 @@
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 460px) {
   #my-work {
     padding: 2.5rem 1rem 4rem 1rem;
   }
 
   #my-work button {
-    font-size: .6rem;
-    padding: .5rem .8rem;
+    font-size: .7rem;
+    padding: .3rem .6rem;
     margin: 1rem .3rem 0 0;
   }
 }
