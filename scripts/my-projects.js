@@ -70,5 +70,12 @@ const projects = [
     description: 'The design is inspired by a free template, and I coded the page myself to make it look as similar as possible to the original.',
     link: 'https://github.com/KarloLeksic/Innesa-Perfumes-webshop',
     category: 'web'
+  },
+  {
+    imagePath: 'images/projects/weather-app.jpg',
+    name: 'Weather Application',
+    description: "The app I'm currently working on. Retrieving real-time data via API and displaying it while applying newly learned things.",
+    link: 'https://karloleksic.github.io/Weather-application/',
+    category: 'web'
   }
 ];
