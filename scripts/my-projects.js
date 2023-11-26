@@ -58,6 +58,13 @@ const projects = [
     category: '3d-prints, electronics'
   },
   {
+    imagePath: 'images/projects/power-control-board.jpg',
+    name: 'Power control board',
+    description: "I don't know what to call this thing, but I love practical things that I can completely adapt to my wants and needs.",
+    link: 'https://www.instagram.com/reel/C0Cy1JiMICC/?utm_source=ig_web_button_share_sheet&igshid=MzRlODBiNWFlZA==',
+    category: '3d-prints, electronics'
+  },
+  {
     imagePath: 'images/projects/portfolio-website.jpg',
     name: 'Portfolio Website',
     description: 'My first site that I made since I started learning front-end web programming in detail.',
